@@ -2,3 +2,39 @@ h1
 {
 color:blue;
 }
+.hautdroite
+{
+
+}
+.lieu
+{
+    border: solid 1px;
+    border-radius: 8px;
+    display: inline;
+}
+.filtres
+{
+    border: solid 1px;
+    border-radius: 8px;
+    display: inline;
+    padding: 1px;
+}
+.hebergements
+{
+    border: solid 1px;
+    border-radius: 8px;
+    display: inline;
+    padding: 2px;
+    
+}
+mark
+{
+    background-color: blue;
+    color: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+a:hover
+{
+
+}

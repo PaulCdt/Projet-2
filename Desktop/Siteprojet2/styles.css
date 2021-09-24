@@ -1,11 +1,19 @@
+#liens
+{
+    display: flex;
+    justify-content: flex-end;
+}
 h1
 {
-color:blue;
+    font-size: 18px;
 }
-.hautdroite
+.element
 {
-
+    margin: 8px;
+    font-size: 20px;
+    color: black;
 }
+
 .lieu
 {
     border: solid 1px;
@@ -34,7 +42,61 @@ mark
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
-a:hover
+a
 {
+    text-decoration: none;
+}
+ul
+{
+    list-style-type: none;
+}
+section
+{
+    align-content: space-between;
+}
+.section
+{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
 
+}
+.footer
+{
+    border: solid 1px;
+    display: inline;
+    background-color: #F2F2F2;
+    padding: 2px;
+}
+.footer
+{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;    
+    grid-template-rows: 50px;
+    grid-column-gap: 10px;
+}
+
+html
+{
+    margin-left: 30px;
+    font-family: Raleway;
+}
+img
+{
+    margin: 2px;
+    padding: 2px;
+}
+.images > div
+{
+    display: grid;
+    justify-content: space-around;
+}
+#sousphotos1
+{
+    display: flex;
+    justify-content: space-around;
+}
+.photos2
+{
+    display: inline;
 }

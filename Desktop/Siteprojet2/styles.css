@@ -20,6 +20,12 @@ h1
     border-radius: 8px;
     display: inline;
 }
+input
+{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .filtres
 {
     border: solid 1px;
@@ -41,6 +47,8 @@ mark
     color: white;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    padding-left: 5px;
+    margin-left: -5px;
 }
 a
 {
@@ -54,7 +62,29 @@ ul
 #section
 {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.child
+{
+    grid-column-start: 1/4;
+    grid-row-start: 1/4;
+    grid-column-end: 3/4;
+    grid-row-end: 1/4;
+}
+.child2
+{
+    grid-column-start: 1/4;
+    grid-row-start: 2/4;
+    grid-column-end: 3/4;
+    grid-row-end: 2/4;
+}
+.aside
+{
+    grid-column-start: 4/4;
+    grid-row-start: 1/4;
+    grid-column-end: 4/4;
+    grid-row-end: 3/4;
 }
 .section > div
 {
@@ -118,5 +148,5 @@ em
 }
 #money
 {
-    color: #0065FC;
+    color: #0065FC
 }

@@ -37,7 +37,7 @@ h1
 }
 mark
 {
-    background-color: blue;
+    background-color: #0065FC;
     color: white;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -45,21 +45,21 @@ mark
 a
 {
     text-decoration: none;
+    color: #0065FC;
 }
 ul
 {
     list-style-type: none;
 }
-section
-{
-    align-content: space-between;
-}
-.section
+#section
 {
     display: grid;
-    flex-direction: column;
-    justify-content: center;
-
+    grid-template-columns: auto;
+}
+.section > div
+{
+    background-color: #F2F2F2;
+    border: solid 1px;
 }
 .footer
 {
@@ -71,32 +71,52 @@ section
 .footer
 {
     display: grid;
-    grid-template-columns: 30% 30% 30%;    
-    grid-template-rows: 50px;
+    grid-template-columns: 1fr 1fr 1fr;    
+    grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 10px;
 }
+.activites
+{
+    border: solid 1px;
+}
+.activites
+{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-column: 1 / 4 ;
+    grid-row: 1 / 2;
+}
 
+.nav:hover
+{
+    text-decoration: overline;
+    color: #0065FC;
+}
 html
 {
     margin-left: 30px;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
 }
+
 img
 {
     margin: 2px;
     padding: 2px;
 }
-.images > div
-{
-    display: grid;
-    justify-content: space-around;
-}
-#sousphotos1
-{
-    display: flex;
-    justify-content: space-around;
-}
+
 .photos2
 {
     display: inline;
+}
+em
+{
+    color: #0065FC;
+    border: solid 1px;
+    padding: 4px;
+    border-radius: 100%;
+}
+#money
+{
+    color: #0065FC;
 }

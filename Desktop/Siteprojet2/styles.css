@@ -55,10 +55,29 @@ ul
 {
     list-style-type: none;
 }
-.herbegement-grille
+.grille
 {
-    display: flex;
-    flex-direction: row;
+    border: solid 1px;
+    border-radius: 8px;
+    background-color: #F2F2F2;
+}
+.grille
+{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 40%;
+    grid-template-rows: 1fr 1fr;
+}
+.child
+{
+    grid-auto-flow: column;
+    grid-auto-flow: row;
+}
+.droite
+{
+    grid-column-start: 4/4;
+    grid-row-start: 1/4;
+    grid-column-end: 4/4;
+    grid-row-end: 4/4;
 }
 .taille-image
 {
@@ -118,4 +137,75 @@ em
 .rating
 {
     color: #0065FC;
+}
+.activitesgrille
+{
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+.activitesgrille
+{
+    grid-auto-flow: column;
+}
+.vieuxport
+{
+    height:400px;
+    width:300px;
+    border: 1px;
+    border-radius: 8px;
+}
+.fort
+{
+    height:170px;
+    width:190px;
+    border:1px;
+    border-radius:8px;
+}
+.frioul
+{
+    height:100px;
+    width:190px;
+    border:1px;
+    border-radius: 8px;
+}
+.calanques
+{
+    height:400px;
+    width:300px;
+    border:1px;
+    border-radius: 8px;
+}
+.garde
+{
+    height:100px;
+    width:190px;
+    border:1px;
+    border-radius: 8px;
+}
+.parc
+{
+    height:170px;
+    width:190px;
+    border:1px;
+    border-radius: 8px;
+}
+.vieux
+{
+    margin-left: 5px;
+    border: solid 1px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;   
+}
+.footer
+{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 5px;
+}
+.footer
+{
+    grid-auto-flow: column;
 }

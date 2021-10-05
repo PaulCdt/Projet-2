@@ -53,19 +53,19 @@
             <script src="https://kit.fontawesome.com/6e182206ea.js" crossorigin="anonymous"></script>
             Filtres 
             <p class="filtres">
-                <i class="fas fa-money-bill-wave"></i>
+                <i id="argent"class="fas fa-money-bill-wave"></i>
                 Economique
             </p> 
             <p class="filtres">
-                <i class="fas fa-child"></i>
+                <i id="enfant"class="fas fa-child"></i>
                 Familial
             </p> 
             <p class="filtres">
-                <i class="fas fa-heart"></i>
+                <i id="coeur"class="fas fa-heart"></i>
                 Romantique
             </p> 
             <p class="filtres">
-                <i class="fas fa-dog"></i>
+                <i id="chien"class="fas fa-dog"></i>
                 Animaux autorisés
             </p>
             <br/><br/>
@@ -76,12 +76,14 @@
     <body>
         <!-- Corps du texte avec liens cliquables des hôtels-->
         <section id="grille">
-            <p class="hebergements">
-                <strong>Hébergement à Marseille</strong>
-                </p>
             <div class="grille">  
-                <div class="grillehebergement">            
-                <div class="auberge">                    
+                <div class="grillehebergement">
+                      <br/> 
+                      <p class="heber"> 
+                          <strong>Hébergement à Marseille</strong> 
+                         </p>  
+                    <br/> <br/>      
+                <div class="auberge">                  
                     <a href=""><img class="taille-image"src="Projet 2 - Reservia/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"/>        
                     </a>
                 <figcaption class="cannebiere">
@@ -113,10 +115,7 @@
                         <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
                     </div>
                 </figcaption> 
-                </div>
-                
-                
-                
+                </div>               
                 <div class="mer">
                     <a href="">
                         <img class="taille-image" src="Projet 2 - Reservia/images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg"/>
@@ -155,18 +154,16 @@
                     </div>
                     <strong>Afficher plus</strong> 
                     </div>
-                    
-
                     <div class="droite">
                             <br/>
                <p><strong>Les plus populaires</strong></p>
                <br/><br/>            
                 <a href="">
-                    <div>
+                    <div class="dumatin">
                     <img class="taille-image"src="Projet 2 - Reservia/images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
                     </div>
                 </a>
-            <figcaption class="matin">
+            <figcaption class="dmatin">
                 <strong>Hôtel Le soleil du matin</strong>
                 <br/>Nuit à partir de 128€<br/>
                 <div class="rating">
@@ -174,7 +171,7 @@
                     </div>
                 </figcaption>
                 <a href="">
-                    <div>
+                    <div class="deleau">
                     <img class="taille-image"src="Projet 2 - Reservia/images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg">
                     </div>
                 </a>
@@ -186,7 +183,7 @@
                     </div>
                 </figcaption>
                 <a href="">
-                    <div>
+                    <div class="etblanc">
                     <img class="taille-image"src="Projet 2 - Reservia/images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
                     </div>
                 </a>
@@ -197,17 +194,16 @@
                     <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
                     </div>
                 </figcaption>
-            </div>
-            </div>
+                </div>
+                </div>
         </section>   
-        
-        
                 <section id="activites">
         <p>
             <strong>Activités à Marseille</strong>
         </p>
         <div class="activitesgrille">
             <div class="activites">
+                <div class="vieuxp">
                 <a href="">
                     <img class="vieuxport"src="Projet 2 - Reservia/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"/>
                 </a>
@@ -215,9 +211,11 @@
             <figcaption>
                 <strong>Vieux Port</strong>
             </figcaption>
+            </div>
         </div>
             </div><br/>
             <div class="activites">
+                <div class="fpomegues">
                 <a href="">
                     <img class="fort" src="Projet 2 - Reservia/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"/>
                 </a>
@@ -226,6 +224,8 @@
                 <strong>Fort de Pomègues</strong>
             </figcaption>
             </div>
+            </div>
+            <div class="dfrioul">
                 <a href="">
                     <img class="frioul" src="Projet 2 - Reservia/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"/>
                 </a>
@@ -235,7 +235,9 @@
             </figcaption>
             </div>
             </div>
+            </div>
             <div class="activites">
+                <div class="dcalanques">
                 <a href="">
                     <img class="calanques"src="Projet 2 - Reservia/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"/>
                 </a>
@@ -244,8 +246,10 @@
                 <strong>Parc National des Calanques</strong>
             </figcaption>
             </div>
+            </div>
             </div><br/>
             <div class="activites">
+                <div class="lgarde">
                 <a href="">
                     <img class="garde"src="Projet 2 - Reservia/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"/>
                 </a>
@@ -254,12 +258,15 @@
                 <strong>Notre-Dame-de-la-Garde</strong>
             </figcaption>
             </div>
+            </div>
+            <div class="palongchamp">
                 <a href=""><img class="parc"src="Projet 2 - Reservia/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"/>
                 </a>
                 <div class="plongchamp">
             <figcaption>
                 <strong>Parc Longchamp</strong>
             </figcaption>
+            </div>
             </div>
         </div>
         </div>

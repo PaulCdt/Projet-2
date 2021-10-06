@@ -1,7 +1,13 @@
-#liens
+.liens
 {
-    display: flex;
-    justify-content: flex-end;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 200px;
+}
+.lien 
+{
+    display:grid;
+    grid-template-columns: 30% 20% 30%;
 }
 li
 {
@@ -282,8 +288,8 @@ img
 .activitesgrille
 {
     display:grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
 }
 
 .activitesgrille
@@ -349,7 +355,7 @@ img
     border-radius: 8px;
     padding:none;
     margin-left:20px;
-    margin-right:100px;
+    margin-right:60px;
 }
 .dfrioul 
 {
@@ -359,7 +365,7 @@ img
     border-radius: 8px;
     padding:none;
     margin-left:20px;
-    margin-right: 100px;
+    margin-right: 60px;
     margin-top:20px;
 }
 .dcalanques

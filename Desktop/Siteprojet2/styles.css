@@ -35,7 +35,7 @@ input
     border: solid 1px;
     border-radius: 8px;
     display: inline;
-    padding: 1px;
+    padding: 1px;  
 }
 mark
 {
@@ -55,22 +55,16 @@ ul
 {
     list-style-type: none;
 }
-.heber
-{
-    margin:auto;
-    padding:auto;
-}
 .grille
 {
     display: grid;
-    grid-template-columns: 66% 33%;
+    grid-template-columns: 3fr 1fr;
 }
 .grillehebergement
 {
     display:grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-auto-flow: column;
-    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
 }
 .grillehebergement
 {
@@ -82,10 +76,12 @@ ul
 }
 .droite
 {
+    display:grid;
     border-radius: 8px;
     background-color: #F2F2F2;
     padding-left: 50px;
     margin-right: 50px;
+    grid-row-gap: 20px;
 }
 .taille-image
 {

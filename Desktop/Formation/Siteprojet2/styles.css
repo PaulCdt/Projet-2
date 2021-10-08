@@ -1,0 +1,468 @@
+.liens
+{
+    display: grid;
+    grid-template-columns: 50% 10% 10% 10%;
+    grid-column-gap: 20px;
+}
+.lien 
+{
+    display:grid;
+    grid-template-columns: 30% 20% 30%;
+    grid-column-gap: 20px;
+}
+li
+{
+    padding:10px;
+}
+h1
+{
+    font-size: 18px;
+}
+.element
+{
+    margin: 8px;
+    font-size: 20px;
+    color: black;
+}
+.lieu
+{
+    border: solid 1px;
+    border-radius: 8px;
+    display: inline;
+}
+input
+{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.filtres
+{
+    border: solid 1px;
+    border-radius: 8px;
+    display: inline;
+    padding: 1px;  
+}
+mark
+{
+    background-color: #0065FC;
+    color: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-left: 5px;
+    margin-left: -5px;
+}
+a
+{
+    text-decoration: none;
+    color: #0065FC;
+}
+ul
+{
+    list-style-type: none;
+}
+.heber
+{
+    width:300px;
+}
+.heber
+{
+    position: relative;
+    top:80px;
+    left:60px;
+}
+.populaires
+{
+    width:240px;
+}
+.grille
+{
+    display: grid;
+    grid-template-columns: 60% 35%;
+}
+.grillehebergement
+{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 20px;
+}
+.grillehebergement
+{
+    border-radius: 8px;
+    background-color: #F2F2F2;
+    margin-right: 50px;
+    padding-top:75px;
+    padding-left:30px;
+}
+.droite
+{
+    display:grid;
+    grid-template-columns: 40% 60%;
+    grid-column-gap:40px;
+    grid-row-gap: 20px;
+    border-radius: 8px;
+    background-color: #F2F2F2;
+    padding-left: 20px;
+    padding-top:100px;
+}
+.populaires
+{
+    position: relative;
+    bottom:630px;
+    left:930px;
+}
+.taille-image
+{
+    height:150px;
+    width:225px;
+    border-radius: 8px;
+    padding:3px;
+}
+.auberge
+{
+    background-color: white;
+    margin:auto;
+    border-radius: 8px;
+    padding:3px;
+}
+.port 
+{
+    background-color: white;
+    margin:auto;
+    border-radius: 8px;
+    padding:3px;
+}
+.mouettes
+{
+    background-color: white;
+    margin:auto;
+    border-radius: 8px;
+    padding:3px;
+}
+.mer
+{
+    background-color: white;
+    margin:auto;
+    border-radius: 8px;
+    padding:3px;
+}
+.panier
+{
+    background-color: white;
+    margin:auto;
+    border-radius: 8px;
+    padding:3px;
+}
+.amina
+{
+    background-color: white;
+    margin:auto;
+    border-radius: 8px;
+    padding:3px;
+}
+.nav:hover
+{
+    text-decoration: overline;
+    color: #0065FC;
+}
+html
+{
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+img
+{
+    margin: 2px;
+    padding: 2px;
+}
+
+.photos2
+{
+    display: inline;
+}
+.fas
+{
+    color: #0065FC;
+    height: 14px;
+    width: 14px;
+    padding-left:5px;
+    padding-right: 10px;
+}
+.fa
+{
+    padding:8px;
+}
+#argent
+{
+    background-color: lightblue;
+    border-radius:100%;
+    padding-top: 5px;
+    padding-left:10px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+#money
+{
+    color:blue;
+}
+#enfant
+{
+    background-color: lightblue;
+    border-radius:100%;
+    padding-top: 5px;
+    padding-left:15px;
+    padding-bottom: 15px;
+    padding-right: 15px; 
+}
+#coeur
+{
+    background-color: lightblue;
+    border-radius:100%;
+    padding-top: 5px;
+    padding-left:10px;
+    padding-bottom: 15px;
+    padding-right: 15px; 
+}
+#chien
+{
+    background-color: lightblue;
+    border-radius:100%;
+    padding-top: 5px;
+    padding-left:10px;
+    padding-bottom: 15px;
+    padding-right: 15px; 
+}
+.fas
+{
+    margin-right: 15px;
+}
+.childicon
+{
+    height:14px;
+    width:14px;
+}
+.heart
+{
+    height:14px;
+    width:14px;
+}
+.dog
+{
+    height:14px;
+    width:14px;
+}
+.iconi
+{
+    height:20px;
+    width:20px;
+}
+.rating
+{
+    color: #0065FC;
+}
+.dumatin
+{
+    background-color: white;
+    border-radius: 8px;
+}
+.dmatin 
+{
+    background-color: white;
+    margin-right: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.deleau
+{
+    background-color: white;
+    border-radius: 8px;
+}
+.leau
+{
+    background-color: white;
+    margin-right: 150px;
+    border-radius:8px;
+}
+.etblanc
+{
+    background-color: white;
+    border-radius: 8px;
+}
+.blanc 
+{
+    background-color: white;
+    margin-right: 150px;
+    border-radius: 8px;
+}
+.activitesgrille
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+}
+
+.activitesgrille
+{
+    grid-auto-flow: column;
+}
+.vieuxport
+{
+    height:400px;
+    width:300px;
+    border: 1px;
+    border-radius: 8px;
+}
+.fort
+{
+    width:300px;
+    height:200px;
+    border:1px;
+    border-radius:8px;
+}
+.frioul
+{
+    height:150px;
+    width:250px;
+    border:1px;
+    border-radius: 8px;
+}
+.calanques
+{
+    height:400px;
+    width:300px;
+    border:1px;
+    border-radius: 8px;
+}
+.garde
+{
+    height:100px;
+    width:250px;
+    border:1px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.parc
+{
+    height:170px;
+    width:250px;
+    border:1px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.vieuxp
+{
+    background-color:white;
+    background-size: 100px 200px;
+    border:solid 1px white;
+    border-radius: 8px;
+
+}
+.vieux
+{
+    border: solid 1px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: white;
+}
+.fpomegues
+{
+    background-color:white;
+    margin:auto;
+    border:solid 1px white;
+    border-radius: 8px;
+    padding:none;
+    margin-left:20px;
+    margin-right:60px;
+    box-shadow: 3px 2px 1px;
+}
+.dfrioul 
+{
+    background-color:white;
+    margin:auto;
+    border:solid 1px white;
+    border-radius: 8px;
+    padding:none;
+    margin-left:20px;
+    margin-right: 60px;
+    margin-top:20px;
+    box-shadow: 3px 2px 1px black;
+}
+.dcalanques
+{
+    background-color:white;
+    border:solid 1px white;
+    border-radius: 8px;
+    box-shadow: 3px 2px 1px black;
+}
+.lgarde 
+{
+    background-color:white;
+    background-size: 100px 200px;
+    border:solid 1px white;
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-right: 100px;
+    box-shadow: 3px 2px 1px black;
+}
+.palongchamp
+{
+    background-color:white;
+    background-size: 100px 200px;
+    border:solid 1px white;
+    border-radius: 8px;
+    margin-left:30px;
+    margin-right:100px;
+    margin-top: 30px;
+    box-shadow: 3px 2px 1px black;
+}
+.vieux 
+{
+    margin-left:10px;
+}
+.pomegues 
+{
+    margin-left:10px;
+}
+.dufrioul
+{
+    margin-left:10px;
+}
+.descalanques
+{
+    margin-left: 10px;
+}
+.lagarde
+{
+    margin-left: 25px;
+}
+.plongchamp
+{
+    margin-left: 25px;
+}
+.footer
+{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr;
+    grid-row-gap: 5px;
+}
+.footer
+{
+    grid-column:30%;
+}
+.footer
+{
+    padding:40px;
+    background-color: #F2F2F2;
+}
+.location
+{
+    height:14px;
+    width:14px;
+}
+.filtres
+{
+    margin:10px;
+}

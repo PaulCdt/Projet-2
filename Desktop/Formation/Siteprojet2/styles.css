@@ -198,10 +198,12 @@ img
 {
     background-color: lightblue;
     border-radius:100%;
-    padding-top: 5px;
+    padding-top: 7px;
     padding-left:10px;
     padding-bottom: 15px;
     padding-right: 20px;
+    position: relative;
+    right:5px;
 }
 #money
 {
@@ -211,28 +213,34 @@ img
 {
     background-color: lightblue;
     border-radius:100%;
-    padding-top: 5px;
+    padding-top: 7px;
     padding-left:15px;
     padding-bottom: 15px;
-    padding-right: 15px; 
+    padding-right: 15px;
+    position: relative;
+    right:5px;
 }
 #coeur
 {
     background-color: lightblue;
     border-radius:100%;
-    padding-top: 5px;
+    padding-top: 7px;
     padding-left:10px;
     padding-bottom: 15px;
-    padding-right: 15px; 
+    padding-right: 15px;
+    position: relative;
+    right:5px; 
 }
 #chien
 {
     background-color: lightblue;
     border-radius:100%;
-    padding-top: 5px;
+    padding-top: 7px;
     padding-left:10px;
     padding-bottom: 15px;
-    padding-right: 15px; 
+    padding-right: 15px;
+    position: relative;
+    right:5px; 
 }
 .fas
 {

@@ -1,7 +1,7 @@
 .liens
 {
     display: grid;
-    grid-template-columns: 50% 10% 10% 10%;
+    grid-template-columns: 60% 15% 10% 10%;
     grid-column-gap: 20px;
 }
 .lien 
@@ -97,14 +97,14 @@ ul
 .droite
 {
     display:grid;
-    grid-template-columns: 40% 60%;
-    grid-column-gap:40px;
+    grid-template-columns: 30% 70%;
     grid-row-gap: 20px;
     border-radius: 8px;
     background-color: #F2F2F2;
     padding-left: 20px;
     padding-top:100px;
 }
+
 .populaires
 {
     position: relative;
@@ -262,45 +262,55 @@ img
 {
     color: #0065FC;
 }
+
+
 .dumatin
 {
-    background-color: white;
+    background:white;
+    width:480px;
+    height:164px;
     border-radius: 8px;
 }
-.dmatin 
+.dmatin
 {
-    background-color: white;
-    margin-right: 150px;
-    border-radius: 8px;
-    margin-bottom: 10px;
+    position: relative;
+    left:100px;
+    top:30px;
+    width:300px;
 }
 .deleau
 {
-    background-color: white;
+    background:white;
+    width:480px;
+    height:164px;
     border-radius: 8px;
 }
 .leau
 {
-    background-color: white;
-    margin-right: 150px;
-    border-radius:8px;
+    position: relative;
+    left:100px;
+    top:30px;
+    width:300px;
 }
 .etblanc
 {
-    background-color: white;
+    background:white;
+    width:480px;
+    height:164px;
     border-radius: 8px;
+    margin-bottom: 10px;
 }
-.blanc 
+.blanc
 {
-    background-color: white;
-    margin-right: 150px;
-    border-radius: 8px;
+    position: relative;
+    left:100px;
+    top:30px;
+    width:300px;
 }
 .activitesgrille
 {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 30px;
 }
 
 .activitesgrille
@@ -314,6 +324,10 @@ img
     border: 1px;
     border-radius: 8px;
 }
+.vieux
+{
+    margin-left: 10px;
+}
 .fort
 {
     width:300px;
@@ -321,12 +335,20 @@ img
     border:1px;
     border-radius:8px;
 }
+.pomegues
+{
+    margin-left: 10px;
+}
 .frioul
 {
     height:150px;
-    width:250px;
+    width:300px;
     border:1px;
     border-radius: 8px;
+}
+.dufrioul
+{
+    margin-left: 10px;
 }
 .calanques
 {
@@ -335,112 +357,87 @@ img
     border:1px;
     border-radius: 8px;
 }
+.descalanques
+{
+    margin-left: 10px;
+}
 .garde
 {
-    height:100px;
-    width:250px;
+    height:150px;
+    width:300px;
     border:1px;
     border-radius: 8px;
-    margin-left: 20px;
+}
+.lagarde
+{
+    margin-left:10px;
 }
 .parc
 {
-    height:170px;
-    width:250px;
+    height:200px;
+    width:300px;
     border:1px;
     border-radius: 8px;
-    margin-left: 20px;
+}
+.plongchamp
+{
+    margin-left: 10px;
 }
 .vieuxp
 {
     background-color:white;
-    background-size: 100px 200px;
-    border:solid 1px white;
+    border:solid 2px #F2F2F2;
     border-radius: 8px;
 
 }
-.vieux
-{
-    border: solid 1px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    background-color: white;
-}
+
 .fpomegues
 {
     background-color:white;
     margin:auto;
-    border:solid 1px white;
+    border:solid 1px #F2F2F2;
     border-radius: 8px;
     padding:none;
     margin-left:20px;
     margin-right:60px;
-    box-shadow: 3px 2px 1px;
 }
 .dfrioul 
 {
     background-color:white;
     margin:auto;
-    border:solid 1px white;
+    border:solid 1px #F2F2F2;
     border-radius: 8px;
     padding:none;
     margin-left:20px;
     margin-right: 60px;
     margin-top:20px;
-    box-shadow: 3px 2px 1px black;
 }
 .dcalanques
 {
     background-color:white;
-    border:solid 1px white;
+    border:solid 1px #F2F2F2;
     border-radius: 8px;
-    box-shadow: 3px 2px 1px black;
 }
 .lgarde 
 {
     background-color:white;
     background-size: 100px 200px;
-    border:solid 1px white;
+    border:solid 1px #F2F2F2;
     border-radius: 8px;
     margin-left: 30px;
     margin-right: 100px;
-    box-shadow: 3px 2px 1px black;
 }
 .palongchamp
 {
     background-color:white;
     background-size: 100px 200px;
-    border:solid 1px white;
+    border:solid 1px #F2F2F2;
     border-radius: 8px;
     margin-left:30px;
     margin-right:100px;
     margin-top: 30px;
-    box-shadow: 3px 2px 1px black;
 }
-.vieux 
-{
-    margin-left:10px;
-}
-.pomegues 
-{
-    margin-left:10px;
-}
-.dufrioul
-{
-    margin-left:10px;
-}
-.descalanques
-{
-    margin-left: 10px;
-}
-.lagarde
-{
-    margin-left: 25px;
-}
-.plongchamp
-{
-    margin-left: 25px;
-}
+
 .footer
 {
     display:grid;

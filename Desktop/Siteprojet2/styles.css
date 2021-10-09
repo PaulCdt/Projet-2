@@ -1,18 +1,18 @@
 .liens
 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 200px;
+    grid-template-columns: 60% 15% 10% 10%;
+    grid-column-gap: 20px;
 }
 .lien 
 {
     display:grid;
     grid-template-columns: 30% 20% 30%;
+    grid-column-gap: 20px;
 }
 li
 {
     padding:10px;
-    margin: 10px;
 }
 h1
 {
@@ -43,6 +43,10 @@ input
     display: inline;
     padding: 1px;  
 }
+.filtres:hover
+{
+    background-color: #F2F2F2;
+}
 mark
 {
     background-color: #0065FC;
@@ -61,33 +65,55 @@ ul
 {
     list-style-type: none;
 }
+.heber
+{
+    width:300px;
+}
+.heber
+{
+    position: relative;
+    top:80px;
+    left:60px;
+}
+.populaires
+{
+    width:240px;
+}
 .grille
 {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 60% 35%;
 }
 .grillehebergement
 {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 20px;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 20px;
 }
 .grillehebergement
 {
     border-radius: 8px;
     background-color: #F2F2F2;
-    margin-right: 100px;
+    margin-right: 50px;
     padding-top:75px;
     padding-left:30px;
 }
 .droite
 {
     display:grid;
+    grid-template-columns: 30% 70%;
+    grid-row-gap: 20px;
     border-radius: 8px;
     background-color: #F2F2F2;
-    padding-left: 50px;
-    margin-right: 50px;
-    grid-row-gap: 20px;
+    padding-left: 20px;
+    padding-top:100px;
+}
+
+.populaires
+{
+    position: relative;
+    bottom:630px;
+    left:930px;
 }
 .taille-image
 {
@@ -145,7 +171,7 @@ ul
 }
 html
 {
-    margin-left: 30px;
+    margin-left: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
@@ -176,10 +202,12 @@ img
 {
     background-color: lightblue;
     border-radius:100%;
-    padding-top: 5px;
+    padding-top: 7px;
     padding-left:10px;
     padding-bottom: 15px;
     padding-right: 20px;
+    position: relative;
+    right:5px;
 }
 #money
 {
@@ -189,28 +217,34 @@ img
 {
     background-color: lightblue;
     border-radius:100%;
-    padding-top: 5px;
+    padding-top: 7px;
     padding-left:15px;
     padding-bottom: 15px;
-    padding-right: 15px; 
+    padding-right: 15px;
+    position: relative;
+    right:5px;
 }
 #coeur
 {
     background-color: lightblue;
     border-radius:100%;
-    padding-top: 5px;
+    padding-top: 7px;
     padding-left:10px;
     padding-bottom: 15px;
-    padding-right: 15px; 
+    padding-right: 15px;
+    position: relative;
+    right:5px; 
 }
 #chien
 {
     background-color: lightblue;
     border-radius:100%;
-    padding-top: 5px;
+    padding-top: 7px;
     padding-left:10px;
     padding-bottom: 15px;
-    padding-right: 15px; 
+    padding-right: 15px;
+    position: relative;
+    right:5px; 
 }
 .fas
 {
@@ -240,56 +274,55 @@ img
 {
     color: #0065FC;
 }
+
+
 .dumatin
 {
-    background-color: white;
-    margin-right:150px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    background:white;
+    width:480px;
+    height:164px;
+    border-radius: 8px;
 }
-.dmatin 
+.dmatin
 {
-    background-color: white;
-    margin-right: 150px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    margin-bottom: 10px;
+    position: relative;
+    left:100px;
+    top:30px;
+    width:300px;
 }
 .deleau
 {
-    background-color: white;
-    margin-right:150px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    background:white;
+    width:480px;
+    height:164px;
+    border-radius: 8px;
 }
 .leau
 {
-    background-color: white;
-    margin-right: 150px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    margin-bottom: 10px;
+    position: relative;
+    left:100px;
+    top:30px;
+    width:300px;
 }
 .etblanc
 {
-    background-color: white;
-    margin-right:150px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-.blanc 
-{
-    background-color: white;
-    margin-right: 150px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    background:white;
+    width:480px;
+    height:164px;
+    border-radius: 8px;
     margin-bottom: 10px;
+}
+.blanc
+{
+    position: relative;
+    left:100px;
+    top:30px;
+    width:300px;
 }
 .activitesgrille
 {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 30px;
 }
 
 .activitesgrille
@@ -303,19 +336,35 @@ img
     border: 1px;
     border-radius: 8px;
 }
+.vieux
+{
+    margin-left: 10px;
+}
+.est
+{
+    border-radius: 0px 0px 10px 10px;
+}
 .fort
 {
-    height:170px;
-    width:190px;
+    width:300px;
+    height:200px;
     border:1px;
     border-radius:8px;
 }
+.pomegues
+{
+    margin-left: 10px;
+}
 .frioul
 {
-    height:100px;
-    width:190px;
+    height:150px;
+    width:300px;
     border:1px;
     border-radius: 8px;
+}
+.dufrioul
+{
+    margin-left: 10px;
 }
 .calanques
 {
@@ -324,34 +373,45 @@ img
     border:1px;
     border-radius: 8px;
 }
+.descalanques
+{
+    margin-left: 10px;
+}
 .garde
 {
-    height:100px;
-    width:250px;
+    height:150px;
+    width:300px;
     border:1px;
     border-radius: 8px;
-    margin-left: 20px;
+}
+.lagarde
+{
+    margin-left:10px;
 }
 .parc
 {
-    height:170px;
-    width:250px;
+    height:200px;
+    width:300px;
     border:1px;
     border-radius: 8px;
-    margin-left: 20px;
+}
+.plongchamp
+{
+    margin-left: 10px;
 }
 .vieuxp
 {
     background-color:white;
-    background-size: 100px 200px;
-    border:solid 1px;
+    border:solid 2px #F2F2F2;
     border-radius: 8px;
+
 }
+
 .fpomegues
 {
     background-color:white;
     margin:auto;
-    border:solid 1px;
+    border:solid 1px #F2F2F2;
     border-radius: 8px;
     padding:none;
     margin-left:20px;
@@ -361,7 +421,7 @@ img
 {
     background-color:white;
     margin:auto;
-    border:solid 1px;
+    border:solid 1px #F2F2F2;
     border-radius: 8px;
     padding:none;
     margin-left:20px;
@@ -371,14 +431,14 @@ img
 .dcalanques
 {
     background-color:white;
-    border:solid 1px;
+    border:solid 1px #F2F2F2;
     border-radius: 8px;
 }
 .lgarde 
 {
     background-color:white;
     background-size: 100px 200px;
-    border:solid 1px;
+    border:solid 1px #F2F2F2;
     border-radius: 8px;
     margin-left: 30px;
     margin-right: 100px;
@@ -387,51 +447,29 @@ img
 {
     background-color:white;
     background-size: 100px 200px;
-    border:solid 1px;
+    border:solid 1px #F2F2F2;
     border-radius: 8px;
     margin-left:30px;
     margin-right:100px;
     margin-top: 30px;
 }
-.vieux 
-{
-    margin-left:10px;
-}
-.pomegues 
-{
-    margin-left:10px;
-}
-.dufrioul
-{
-    margin-left:10px;
-}
-.descalanques
-{
-    margin-left: 10px;
-}
-.lagarde
-{
-    margin-left: 25px;
-}
-.plongchamp
-{
-    margin-left: 25px;
-}
+
 .footer
 {
     display:grid;
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-row-gap: 5px;
 }
 .footer
 {
-    grid-auto-flow: column;
+    grid-column:30%;
 }
 .footer
 {
     padding:40px;
     background-color: #F2F2F2;
+    width:1350px;
 }
 .location
 {

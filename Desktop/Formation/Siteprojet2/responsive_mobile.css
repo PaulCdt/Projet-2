@@ -13,16 +13,32 @@ html
 {
     font-size: 21px;
 }
-
-.liens
+.logo
 {
-    display:grid;
-    grid-template-columns: 100px;
+    position: relative;
+    right:40px;
 }
-.lien
+#inscrire
 {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
+    position: relative;
+    right:100px;
+    top:20px;
+}
+#navheber
+{
+    position: relative;
+    top:55px;
+    right:250px;
+}
+#navactivites
+{
+    position: relative;
+    top:55px;
+    right:100px;
+}
+.filtre
+{
+    width:300px;
 }
 .filtres
 {
@@ -32,6 +48,14 @@ html
 .filtres
 {
     margin-right: 125px;
+    height:35px;
+    width:200px;
+}
+#argent
+{
+    position: relative;
+    right:10px;
+
 }
 .grille
 {
@@ -52,14 +76,15 @@ html
 {
     background-color: white;
 }
-
-.taille-images
+.droite
 {
-    height:100px;
-    max-width: 100%;
-    border-radius: 8px;
-    padding:3px;
+    width:450px;
 }
+.emile
+{
+    width:100px;
+}
+
 .heber
 {
     position: relative;
@@ -75,10 +100,20 @@ html
     bottom:2030px;
     left:60px;
 }
-.activites
+.activitesgrille
 {
     display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill,300px);
+    justify-content: center;
+    grid-column-gap: 10px;
+}
+.vieuxport
+{
+    width:300px;
+}
+.vieuxp
+{
+    width:306px;
 }
 .footer
 {

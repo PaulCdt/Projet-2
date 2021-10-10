@@ -43,6 +43,10 @@ input
     display: inline;
     padding: 1px;  
 }
+.filtres:hover
+{
+    background-color: #F2F2F2;
+}
 mark
 {
     background-color: #0065FC;
@@ -330,11 +334,21 @@ img
     height:400px;
     width:300px;
     border: 1px;
-    border-radius: 8px;
 }
 .vieux
 {
     margin-left: 10px;
+}
+.vieuxp
+{
+    border-radius: 15px;
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
+    width:100%;
+    margin-bottom:50px;
+}
+.vp
+{
+    margin-bottom: 50px;
 }
 .fort
 {
@@ -391,13 +405,7 @@ img
 {
     margin-left: 10px;
 }
-.vieuxp
-{
-    background-color:white;
-    border:solid 2px #F2F2F2;
-    border-radius: 8px;
 
-}
 
 .fpomegues
 {
@@ -461,6 +469,7 @@ img
 {
     padding:40px;
     background-color: #F2F2F2;
+    width:1350px;
 }
 .location
 {

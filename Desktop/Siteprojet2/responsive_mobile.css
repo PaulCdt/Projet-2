@@ -1,0 +1,145 @@
+html
+{
+    margin-left:10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.lieu
+{
+    padding-top:5px;
+}
+.rechercher
+{
+    font-size: 21px;
+}
+.logo
+{
+    position: relative;
+    right:40px;
+}
+#inscrire
+{
+    position: relative;
+    right:100px;
+    top:20px;
+}
+#navheber
+{
+    position: relative;
+    top:55px;
+    right:250px;
+}
+#navactivites
+{
+    position: relative;
+    top:55px;
+    right:100px;
+}
+.filtre
+{
+    width:300px;
+}
+.filtres
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.filtres
+{
+    margin-right: 125px;
+    height:35px;
+    width:200px;
+}
+#argent
+{
+    position: relative;
+    right:10px;
+
+}
+.grille
+{
+    display:grid;
+    grid-template-columns: 100%;
+}
+.grille
+{
+    display:flex;
+    flex-wrap: wrap-reverse;
+}
+.grillehebergement
+{
+    display:grid;
+    grid-template-columns: 100%;
+}
+.grillehebergement
+{
+    background-color: white;
+}
+.droite
+{
+    width:450px;
+}
+.emile
+{
+    width:100px;
+}
+
+.heber
+{
+    position: relative;
+    top:710px;
+}
+.heber
+{
+    width:200px;
+}
+.populaires
+{
+    position:relative;
+    bottom:2030px;
+    left:60px;
+}
+.marseille
+{
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.activitesgrille
+{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    justify-content: center;
+    grid-column-gap: 10px;
+}
+.vieuxport
+{
+    width:300px;
+}
+.vieuxp
+{
+    width:306px;
+}
+.footer
+{
+    display:grid;
+    grid-template-columns: 100%;
+}
+.footer
+{
+    grid-column: 30%;
+}
+.footer
+{
+    font-size: 20px;
+    width:335px;
+}
+.nosheber
+{
+    margin-bottom:20px;
+}
+.propos
+{
+    margin-bottom: 20px;
+}

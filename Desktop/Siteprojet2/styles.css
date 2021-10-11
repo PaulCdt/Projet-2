@@ -319,6 +319,9 @@ img
     top:30px;
     width:300px;
 }
+
+
+
 .activitesgrille
 {
     display:grid;
@@ -333,17 +336,20 @@ img
 {
     height:400px;
     width:300px;
-    border: 1px;
     border-radius: 8px;
 }
 .vieux
 {
     margin-left: 10px;
 }
-.est
+.vieuxp
 {
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
+    width:100%;
+    margin-bottom:50px;
 }
+
 .fort
 {
     width:300px;
@@ -399,59 +405,53 @@ img
 {
     margin-left: 10px;
 }
-.vieuxp
-{
-    background-color:white;
-    border:solid 2px #F2F2F2;
-    border-radius: 8px;
 
-}
 
 .fpomegues
 {
     background-color:white;
     margin:auto;
-    border:solid 1px #F2F2F2;
     border-radius: 8px;
     padding:none;
     margin-left:20px;
     margin-right:60px;
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
 }
 .dfrioul 
 {
     background-color:white;
     margin:auto;
-    border:solid 1px #F2F2F2;
     border-radius: 8px;
     padding:none;
     margin-left:20px;
     margin-right: 60px;
     margin-top:20px;
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
 }
 .dcalanques
 {
     background-color:white;
-    border:solid 1px #F2F2F2;
     border-radius: 8px;
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
 }
 .lgarde 
 {
     background-color:white;
     background-size: 100px 200px;
-    border:solid 1px #F2F2F2;
     border-radius: 8px;
     margin-left: 30px;
     margin-right: 100px;
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
 }
 .palongchamp
 {
     background-color:white;
     background-size: 100px 200px;
-    border:solid 1px #F2F2F2;
     border-radius: 8px;
     margin-left:30px;
     margin-right:100px;
     margin-top: 30px;
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
 }
 
 .footer
@@ -469,7 +469,9 @@ img
 {
     padding:40px;
     background-color: #F2F2F2;
-    width:1350px;
+    width:1440px;
+    position:relative;
+    right:20px;
 }
 .location
 {

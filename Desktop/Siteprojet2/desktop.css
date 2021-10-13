@@ -7,7 +7,7 @@
     grid-row-gap: 6%;
     border-radius: 20px;
     padding-top: 30px;
-    height:280px;
+    height:475px;
 }
 .marseille div a
 {
@@ -31,14 +31,7 @@
 {
     height: 68%;
 }
-.marseille div:nth-child(7) img
-{
-    height:78%;
-}
-.marseille div:nth-child(6) img
-{
-    height:75%;
-}
+
 .marseille div:nth-child(4)
 {
     grid-column: 2/3;
@@ -59,11 +52,19 @@
     grid-column: 4/5;
     grid-row: 4/6;
 }
+.marseille div:nth-child(6) img
+{
+    height:60%;
+}
+.marseille div:nth-child(7) img
+{
+    height: 67%;
+}
 .marseille div img
 {
     display:block;
     object-fit:cover;
-    width: 100%;
+    width: 99%;
     height: 85%;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
@@ -71,14 +72,45 @@
 }
 .style
 {
-    font-size: 0.5em;
+    font-size: 0.8em;
     margin: auto;
     padding: 5% 0% 50%;
     text-decoration: none;
     color:black;
+    margin-left: 10px;
 }
 /*.marseille div:not(.title)
 {
     box-shadow: 0px 1px 1px 0px #F2F2F2;
     height:130px;
 }*/
+.vieuxport
+{
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
+    border-radius: 15px;
+}
+.fortdepomegues
+{
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
+    border-radius: 15px;
+}
+.iledufrioul
+{
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
+    border-radius: 15px;
+}
+.parcnational
+{
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
+    border-radius: 15px;
+}
+.notredame
+{
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
+    border-radius: 15px;
+}
+.parclongchamp
+{
+    box-shadow: 0px 15px 10px 0px #F2F2F2;
+    border-radius: 15px;
+}
